@@ -8,7 +8,7 @@ void main() {
   runApp(
     // ignore: missing_required_param
     ChangeNotifierProvider<ThemeChanger>(
-      create:(_) => ThemeChanger(darkTheme),
+      create:(_) => ThemeChanger(lightTheme),
       child: MyApp(),
     ),
   );
