@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final themeChanger= Provider.of<ThemeChanger>(context);
     return MaterialApp(
-      title: 'Flutter Demo',
+      // title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: themeChanger.getTheme(),
       home: Home(),
