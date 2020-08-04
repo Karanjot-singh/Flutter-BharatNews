@@ -20,7 +20,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar(elevation: 0,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
         child: Column(
           children: <Widget>[
             Container(
-              height: 180,
+              height: 120,
                 child: ListView.builder(
               shrinkWrap: true,
               scrollDirection: Axis.horizontal,
