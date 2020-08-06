@@ -2,7 +2,6 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:provider/provider.dart';
-import 'package:device_preview/device_preview.dart';
 import './blocs/theme.dart';
 import './blocs/theme_options.dart';
 import './views/home.dart';
