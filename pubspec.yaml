@@ -26,6 +26,8 @@ dependencies:
   responsive_framework: ^0.0.8
   provider:
   device_preview:
+  http:
+  cached_network_image:
 
 
   # The following adds the Cupertino Icons font to your application.
